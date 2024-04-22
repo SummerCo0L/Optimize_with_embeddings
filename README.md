@@ -2,13 +2,12 @@
 
 ## Overview
 
-This project is aimed at optimizing the allocation of workers to projects based on various attributes and constraints. 
-It consists of two main scripts:
+This project aimed to optimize the allocation of workers to projects based on various attributes and constraints.
+It utilizes pre-trained language model to process text data and calculate similarity scores for use in the optimization algorithm.
+There are two main scripts:
 
-- **Part A**: Analyzes worker and project attributes, generate embeddings with pre-trained language model, calculates scores, and generates an output file.
+- **Part A**: Analyzes worker and project attributes, generate embeddings with pre-trained language model, calculates scores, and create an output file.
 - **Part B**: Utilizes the output from Part A to optimize the assignment of workers to projects using linear programming techniques.
-
-The project utilizes Python scripts and various utility self-defined functions to process input data, perform calculations, and generate optimized assignments.
 
 ## Features
 
