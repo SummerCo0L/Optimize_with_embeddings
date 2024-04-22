@@ -21,25 +21,30 @@ The project utilizes Python scripts and various utility self-defined functions t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/SummerCo0L/optimize.git
+   cd your_local_path_to/optimize
 
 2. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
-   python setup.py
 
+3. Use Transformers offline by downloading the files ahead of time
+   ```bash
+   python setup.py
 
 ## Usage
 1. Run Part A script to process input data and generate output:
-   python part_a.py
+   ```bash
+   python Part_A_Script.py
 
-2. Run Part B script to optimize worker-project assignments:
-   python part_b.py
+3. Run Part B script to optimize worker-project assignments:
+   ```bash
+   python Part_B_Script.py
 
-3. Sample Dataset:
-   You can find a sample dataset in the `data/input` directory of this repository. The file is named `sample_dataset.xlsx`.
+5. Sample Dataset:
+   You can find a sample dataset in the `data/input` directory of this repository. The file is named `Sample_Dataset.xlsx`.
 
-4. Generated Outputs:
+6. Generated Outputs:
    The outputs of the scripts will be generated in the `data/outputs` directory. After running the scripts, you can find the output files in this directory.
    I've provided some samples for your reference.
 
