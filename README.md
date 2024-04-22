@@ -20,7 +20,7 @@ There are two main scripts:
 - Transformers
 - Scipy
 - Torch
-- 
+  
 ## Features
 
 - **Input Processing**: Reads input data from various sheets in Excel file and preprocesses it for analysis.
@@ -33,7 +33,7 @@ There are two main scripts:
 1. Clone the repository:
    ```bash
    git clone https://github.com/SummerCo0L/optimize.git
-   cd your_local_path_to/optimize
+   cd "local_path_to_ur_project"/optimize
 
 2. Install the required dependencies:
    ```bash
